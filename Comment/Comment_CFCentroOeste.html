@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <title>Comentários</title>
+
+  <style>
+    body {
+      margin: 0;
+      padding: 20px;
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      display: flex;
+      justify-content: center;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 800px;
+      background: white;
+      padding: 25px;
+      border-radius: 12px;
+      box-shadow: 0 0 18px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 20px;
+      font-weight: 600;
+    }
+  </style>
+</head>
+
+<body>
+
+<div class="container">
+  <h2>💬 Comentários</h2>
+
+  <div id="fb-root"></div>
+
+  <script async defer crossorigin="anonymous" 
+    src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v15.0">
+  </script>
+
+  <div class="fb-comments"
+       data-href="https://www.mapasnasaladeaula.org/mapas-do-projeto/mapas-de-professores/Centro-de-Formacao-Centro-Oeste"
+       data-width="100%"
+       data-numposts="10">
+  </div>
+</div>
+
+</body>
+</html>
